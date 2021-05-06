@@ -96,18 +96,20 @@ body,html {
 
 em {
   display: block;
-  color: rgb(131, 131, 131);
   position: relative;
   z-index: 3;
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 .white em {
-  margin-top: 20rem;
+  margin-top: 24rem;
+  
+  color: rgb(68, 68, 68);
 }
 
 .black em {
   margin-top: 15rem;
+  color: rgb(214, 213, 213);
 }
 
 kbd {
