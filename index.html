@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Piano with drums</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="piano-wrapper">
+    <div class="white-key-wrapper">
+      <div data-key="71" class="pkey white"><em>G</em></div>
+      <div data-key="72" class="pkey white"><em>H</em></div>
+      <div data-key="74" class="pkey white"><em>J</em></div>
+      <div data-key="75" class="pkey white"><em>K</em></div>
+      <div data-key="76" class="pkey white"><em>L</em></div>
+      <div data-key="192" class="pkey white"><em>Ø</em></div>
+      <div data-key="222" class="pkey white"><em>Æ</em></div>
+    </div>
+    <div class="black-key-wrapper">
+      <div data-key="89" class="pkey black"><em>Y</em></div>
+      <div data-key="85" class="pkey black"><em>U</em></div>
+      <div data-key="79" class="pkey black"><em>O</em></div>
+      <div data-key="80" class="pkey black"><em>P</em></div>
+      <div data-key="221" class="pkey black"><em>Å</em></div>
+    </div>
+  </div>
+
+
+  <div class="drums">
+    <div data-key="49" class="dkey">
+      <kbd>1</kbd>
+      <span class="sound">clap</span>
+    </div>
+    <div data-key="50" class="dkey">
+      <kbd>2</kbd>
+      <span class="sound">hihat</span>
+    </div>
+    <div data-key="51" class="dkey">
+      <kbd>3</kbd>
+      <span class="sound">kick</span>
+    </div>
+    <div data-key="52" class="dkey">
+      <kbd>4</kbd>
+      <span class="sound">openhat</span>
+    </div>
+    <div data-key="53" class="dkey">
+      <kbd>5</kbd>
+      <span class="sound">boom</span>
+    </div>
+    <div data-key="54" class="dkey">
+      <kbd>6</kbd>
+      <span class="sound">ride</span>
+    </div>
+    <div data-key="55" class="dkey">
+      <kbd>7</kbd>
+      <span class="sound">snare</span>
+    </div>
+    <div data-key="56" class="dkey">
+      <kbd>8</kbd>
+      <span class="sound">tom</span>
+    </div>
+    <div data-key="57" class="dkey">
+      <kbd>9</kbd>
+      <span class="sound">tink</span>
+    </div>
+  </div>
+
+  <audio data-key="71" src="notes/C.mp3"></audio>
+  <audio data-key="89" src="notes/Db.mp3"></audio>
+  <audio data-key="72" src="notes/D.mp3"></audio>
+  <audio data-key="85" src="notes/Eb.mp3"></audio>
+  <audio data-key="74" src="notes/E.mp3"></audio>
+  <audio data-key="75" src="notes/F.mp3"></audio>
+  <audio data-key="79" src="notes/Gb.mp3"></audio>
+  <audio data-key="76" src="notes/G.mp3"></audio>
+  <audio data-key="80" src="notes/Ab.mp3"></audio>
+  <audio data-key="192" src="notes/A.mp3"></audio>
+  <audio data-key="221" src="notes/Bb.mp3"></audio>
+  <audio data-key="222" src="notes/B.mp3"></audio>
+
+  <audio data-key="49" src="sounds/clap.wav"></audio>
+  <audio data-key="50" src="sounds/hihat.wav"></audio>
+  <audio data-key="51" src="sounds/kick.wav"></audio>
+  <audio data-key="52" src="sounds/openhat.wav"></audio>
+  <audio data-key="53" src="sounds/boom.wav"></audio>
+  <audio data-key="54" src="sounds/ride.wav"></audio>
+  <audio data-key="55" src="sounds/snare.wav"></audio>
+  <audio data-key="56" src="sounds/tom.wav"></audio>
+  <audio data-key="57" src="sounds/tink.wav"></audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
