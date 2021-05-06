@@ -27,13 +27,13 @@ body,html {
 .black-key-wrapper {
   display: flex;
   border: 1px solid black;
-  margin-left: 50px;
-  margin-top: -300px;
+  margin-left: 5rem;
+  margin-top: -30rem;
 }
 
 .white {
-  width: 100px;
-  height: 300px;
+  width: 10rem;
+  height: 30rem;
   background: #fff;
   box-shadow: 0 1rem .5rem black;
   position: relative;
@@ -41,9 +41,9 @@ body,html {
 }
 
 .black {
-  width: 60px;
-  height: 200px;
-  margin: 0 20px;
+  width: 6rem;
+  height: 20rem;
+  margin: 0 2rem;
   background: rgb(41, 35, 35);
   box-shadow: 0 0 1rem rgb(41, 37, 37);
   position: relative;
@@ -51,7 +51,7 @@ body,html {
 }
 
 .black:nth-child(3) {
-  margin-left: 120px;
+  margin-left: 12rem;
 }
 
 .drums {
@@ -103,11 +103,11 @@ em {
 }
 
 .white em {
-  margin-top: 200px;
+  margin-top: 20rem;
 }
 
 .black em {
-  margin-top: 150px;
+  margin-top: 15rem;
 }
 
 kbd {
